@@ -81,7 +81,7 @@ namespace CustomerNotification.API.Controllers
                     throw;
                 }
             }
-            Notifiy(message.data.UserId, message.ToString());
+            Notifiy(message.data.UserId, "Updated");
             return Ok();
         }
 
@@ -116,7 +116,7 @@ namespace CustomerNotification.API.Controllers
                     throw;
                 }
             }
-            Notifiy(message.data.UserId, message.data.ToString());
+            Notifiy(message.data.UserId, "Created");
             return CreatedAtAction("GetMessage", new { id = message.data.UserId }, message);
         }
 
@@ -134,7 +134,7 @@ namespace CustomerNotification.API.Controllers
 
             _context.Messages.Remove(data);
             await _context.SaveChangesAsync();
-            Notifiy(message.data.UserId, message.data.ToString());
+            Notifiy(message.data.UserId, "Deleted");
             return Ok();
         }
 
