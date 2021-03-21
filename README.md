@@ -1,4 +1,4 @@
-# customermessage
+# Customer Message
 Background on the task
 
 The challenge is to look for a solution that supports all existing (and new /future integrations)
@@ -24,21 +24,21 @@ o UserBlocked
 - A message body that may contain different information depends on the message type. 
 The following list illustrates the potential content of these messages
 <H2>1. Message when a user registered</H2>
-    Type: NewUserRegistered 
-    Body type:
+    Type: NewUserRegistered  Body type:
     string UserId 
     string Email 
     string Firstname 
     string LastName
         
-   NewUserRegistered    
-   { 
-      "messageType": "NewUserRegistered",      
-      "data":  {      
-          "UserId": "comkwang",
-          "Email": "ken.park@hotmail.com",
-          "Firstname": "ken",
-          "Lastname":"Park"
+       
+   {
+      "messageType" : "NewUserRegistered",
+      "data" : { 
+         "UserId": "abcd",
+        "Email": "ken.park@hotmail.com",
+        "Firstname": "ken",
+        "Lastname":"Park"
+    
       }
    }
 
@@ -47,7 +47,7 @@ The following list illustrates the potential content of these messages
     Type: UserDeleted Body type:
     string UserId
    
-    UserDeleted
+    
     {
         "messageType": "UserDeleted",
         "data" : {
@@ -60,7 +60,7 @@ The following list illustrates the potential content of these messages
    Type: UserAccessBlocked Body type: 
    string UserId
    
-    UserBlocked
+    
     {
         "messageType": "UserBlocked", 
         "data" : {
