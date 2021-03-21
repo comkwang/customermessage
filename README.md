@@ -66,3 +66,21 @@ The following list illustrates the potential content of these messages
             "UserId": "comkwang"
         }
     }
+
+<h2>All Pakages I used</h2>
+Microsoft.EntityFrameworkCore<br>
+Microsoft.EntityFrameworkCore.Sqlserver<br>
+Microsoft.EntityFrameworkCore.Tools<br>
+Microsoft.VisualStudio.Web.CodeGeneration.Design<br>
+
+
+![image](https://user-images.githubusercontent.com/13435196/111920612-0cfcc200-8ae4-11eb-99b5-3f55e47fd764.png)
+
+
+![image](https://user-images.githubusercontent.com/13435196/111920446-1f2a3080-8ae3-11eb-8d82-fe86a83e5982.png)
+
+
+![image](https://user-images.githubusercontent.com/13435196/111920464-408b1c80-8ae3-11eb-88fa-d624cff719ab.png)
+
+
+![image](https://user-images.githubusercontent.com/13435196/111920481-5862a080-8ae3-11eb-9f30-e831f5ea9ece.png)
