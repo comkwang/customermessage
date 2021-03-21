@@ -31,16 +31,16 @@ The following list illustrates the potential content of these messages
     string LastName
         
        
-   {
-      "messageType" : "NewUserRegistered",
-      "data" : { 
-         "UserId": "abcd",
-        "Email": "ken.park@hotmail.com",
-        "Firstname": "ken",
-        "Lastname":"Park"
+  ``{
+      `"messageType":"NewUserRegistered",
+      `"data" : { 
+        `"UserId": "abcd",
+        `"Email": "ken.park@hotmail.com",
+        `"Firstname": "ken",
+        `"Lastname":"Park"
     
-      }
-   }
+      `}
+   `}
 
 
 <H2>2. Message when a user deleted</H2>
